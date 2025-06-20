@@ -10,15 +10,15 @@ app.post('/support', (req, res) => {
   console.log('Jane received a support request:', input);
 
   res.json({
-    message: "Jane has received your support request.",
+    message: "Jane has successfully received your support request.",
     data: input
   });
 });
 
 app.get('/', (req, res) => {
-  res.send("Jane GPT support backend is live.");
+  res.send("Jane GPT support backend is running.");
 });
 
 app.listen(PORT, () => {
-  console.log(`Jane's server running on port ${PORT}`);
+  console.log(`Jane's server is live on port ${PORT}`);
 });
