@@ -1,0 +1,12 @@
+{
+  "name": "jane-gpt-backend",
+  "version": "1.0.0",
+  "main": "jane-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node jane-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
